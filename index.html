@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A* Pathfinding Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>A* Pathfinding Visualization</h1>
+    <div>
+        <label for="gridSize">グリッドのサイズ:</label>
+        <select id="gridSize">
+            <option value="10">10x10</option>
+            <option value="20">20x20</option>
+            <option value="30">30x30</option>
+        </select>
+    </div>
+    <div id="gridContainer">
+        <div id="grid"></div>
+    </div>
+    <button id="startButton">経路を見つける</button>
+    <button id="resetButton">リセット</button>
+    <script src="script.js"></script>
+</body>
+</html>
